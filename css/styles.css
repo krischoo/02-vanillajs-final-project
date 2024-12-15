@@ -5,7 +5,7 @@
 
 @font-face {
 	font-family: "maru-b";
-	src: url("/fonts/maru-b.ttf") format("truetype");
+	src: url("fonts/maru-b.ttf") format("truetype");
 }
 .hidden {
 	display: none;
