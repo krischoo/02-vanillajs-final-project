@@ -1,0 +1,48 @@
+.search-area {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	width: 80%;
+}
+
+.search-area form {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	padding: 5px 20px;
+	border-radius: 10px;
+	width: 30%;
+	min-width: 200px;
+}
+#search-naver {
+	background-color: #34ad37;
+}
+#search-naver input {
+	width: 100%;
+	background-color: #34ad37;
+	color: #ffffff;
+}
+#search-naver input::placeholder {
+	color: #ffffff;
+}
+
+#search-google {
+	background-color: #ffffff;
+}
+#search-google input {
+	width: 100%;
+	background-color: #ffffff;
+}
+#search-google input::placeholder {
+	color: #000000;
+}
+
+.search-area img {
+	width: 35px;
+	height: 35px;
+}
+.search-area input {
+	padding: 10px;
+	border: none;
+	border-radius: 30px;
+}

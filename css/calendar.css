@@ -1,0 +1,28 @@
+/** calendar **/
+#calendar {
+	width: 200px;
+	padding: 20px;
+	background: rgba(208, 198, 198, 0.8);
+	border-radius: 10px;
+}
+
+.calendar-grid {
+	display: grid;
+	grid-template-columns: repeat(7, 1fr);
+	gap: 5px;
+	text-align: center;
+}
+
+.calendar-grid div {
+	padding: 2px;
+}
+
+.today {
+	background: #ff6b6b;
+	color: white;
+	border-radius: 50%;
+}
+
+.other-month {
+	color: #999;
+}

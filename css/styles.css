@@ -1,0 +1,93 @@
+@import "reset.css";
+@import "calendar.css";
+@import "todo.css";
+@import "search.css";
+
+@font-face {
+	font-family: "maru-b";
+	src: url("/fonts/maru-b.ttf") format("truetype");
+}
+.hidden {
+	display: none;
+}
+*,
+body {
+	font-family: "maru-b", sans-serif;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	max-height: 100vh;
+	overflow: hidden;
+}
+.section1,
+.section2,
+.section3,
+.section4 {
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+}
+.section1 {
+	background-color: transparent;
+	height: 8vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.section2 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+	background-color: transparent;
+	height: 42vh;
+}
+.section3 {
+	padding: 20px;
+	display: flex;
+	justify-content: space-evenly;
+	height: 40vh;
+}
+.section4 {
+	padding: 20px;
+	background-color: thistle;
+	height: 10vh;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/** date **/
+#date {
+	font-size: 1.6em;
+	text-align: center;
+	color: #ddd;
+	margin-bottom: 10px;
+}
+
+/** clock **/
+#clock {
+	margin: 0px;
+	font-size: 6em;
+	text-align: center;
+	color: #ddd;
+	margin-bottom: 20px;
+	letter-spacing: 0.05em;
+}
+
+/** background image **/
+.bgImage {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	filter: brightness(0.3);
+}
