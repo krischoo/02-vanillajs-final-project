@@ -1,5 +1,5 @@
 .todo-area {
-	background-color: #232323;
+	background-color: rgba(0, 0, 0, 0.5);
 	border-radius: 20px;
 	padding: 10px;
 	width: 300px;
@@ -25,6 +25,7 @@
 	padding: 10px;
 	border-radius: 10px;
 	margin-bottom: 10px;
+	font-size: 1.2em;
 }
 
 #todo-list {

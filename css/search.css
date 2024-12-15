@@ -21,6 +21,7 @@
 	width: 100%;
 	background-color: #34ad37;
 	color: #ffffff;
+	font-size: 1.2em;
 }
 #search-naver input::placeholder {
 	color: #ffffff;
@@ -32,6 +33,7 @@
 #search-google input {
 	width: 100%;
 	background-color: #ffffff;
+	font-size: 1.2em;
 }
 #search-google input::placeholder {
 	color: #000000;

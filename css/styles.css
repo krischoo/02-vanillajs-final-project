@@ -2,17 +2,19 @@
 @import "calendar.css";
 @import "todo.css";
 @import "search.css";
+@import "weather.css";
+@import "quote.css";
 
 @font-face {
-	font-family: "maru-b";
-	src: url("fonts/maru-b.ttf") format("truetype");
+	font-family: "on-j";
+	src: url("/fonts/on-j.ttf") format("truetype");
 }
 .hidden {
 	display: none;
 }
 *,
 body {
-	font-family: "maru-b", sans-serif;
+	font-family: "on-j", sans-serif;
 }
 
 body {
@@ -34,10 +36,11 @@ body {
 }
 .section1 {
 	background-color: transparent;
-	height: 8vh;
+	height: 5vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	color: white;
 }
 .section2 {
 	display: flex;
@@ -46,26 +49,28 @@ body {
 	justify-content: center;
 	padding: 20px;
 	background-color: transparent;
-	height: 42vh;
+	height: 40vh;
 }
 .section3 {
 	padding: 20px;
 	display: flex;
 	justify-content: space-evenly;
-	height: 40vh;
+	height: 45vh;
 }
 .section4 {
 	padding: 20px;
-	background-color: thistle;
+	background-color: rgba(0, 0, 0, 0.5);
 	height: 10vh;
+	color: white;
+	font-size: 1em;
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
 }
 
 /** date **/
 #date {
-	font-size: 1.6em;
+	font-size: 1.8em;
 	text-align: center;
 	color: #ddd;
 	margin-bottom: 10px;
@@ -74,7 +79,7 @@ body {
 /** clock **/
 #clock {
 	margin: 0px;
-	font-size: 6em;
+	font-size: 8em;
 	text-align: center;
 	color: #ddd;
 	margin-bottom: 20px;

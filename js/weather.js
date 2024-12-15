@@ -9,11 +9,9 @@ function onGeoOk(position) {
 		.then((response) => response.json())
 		.then((data) => {
 			const weatherIcon = document.querySelector(".weather-icon");
-			const weather = document.querySelector("#weather span:nth-of-type(1)");
-			const temperature = document.querySelector(
-				"#weather span:nth-of-type(2)"
-			);
-			const city = document.querySelector("#weather span:nth-of-type(3)");
+			const weather = document.querySelector(".weather-text");
+			const temperature = document.querySelector(".temperature-text");
+			const city = document.querySelector(".city-text");
 
 			weather.innerText = data.weather[0].main;
 			temperature.innerText = `${Math.round(data.main.temp)}°C`;

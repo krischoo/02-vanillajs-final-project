@@ -5,7 +5,7 @@
 		<link rel="icon" type="image/svg+xml" href="/vite.svg" />
 		<link rel="stylesheet" href="css/styles.css" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Momentum App</title>
+		<title>인생은 도전</title>
 	</head>
 	<body>
 		<section class="section1">
@@ -14,9 +14,9 @@
 					required
 					maxlength="15"
 					type="text"
-					placeholder="이름을 입력하세요"
+					placeholder="꼭 이룰 단 하나의 목표는?"
 				/>
-				<button>로그인</button>
+				<button>입력</button>
 			</form>
 			<h1 id="greeting" class="hidden"></h1>
 		</section>
@@ -39,9 +39,21 @@
 		<section class="section3">
 			<div id="weather">
 				<div class="weather-icon"></div>
-				<span></span>
-				<span></span>
-				<span></span>
+				<div class="weather-info">
+					<div>
+						<span>날씨 :</span>
+						<span class="weather-text">날씨</span>
+					</div>
+
+					<div>
+						<span>기온 : </span>
+						<span class="temperature-text">온도</span>
+					</div>
+					<div>
+						<span>위치 : </span>
+						<span class="city-text">도시</span>
+					</div>
+				</div>
 			</div>
 			<!-- todo -->
 			<div class="todo-area">

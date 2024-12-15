@@ -1,0 +1,24 @@
+#quote {
+	display: flex;
+	font-size: 1.2em;
+}
+
+#quote span:first-child {
+	margin-right: 20px;
+}
+
+#quote span:first-child::before {
+	content: "❝ ";
+}
+
+#quote span:first-child::after {
+	content: " ❞";
+}
+
+#quote span:last-child::before {
+	content: "- ";
+}
+
+#quote span:last-child {
+	color: yellow;
+}

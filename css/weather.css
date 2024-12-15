@@ -1,0 +1,25 @@
+#weather {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.5);
+	width: 300px;
+	gap: 10px;
+	border-radius: 30px;
+}
+
+#weather > div {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.weather-info {
+	font-size: 1.2rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+	gap: 10px;
+}
